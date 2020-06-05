@@ -1,0 +1,646 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* Self Designed Grid System */
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66;
+}
+
+.col-3 {
+    width: 25;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* marquee slide */
+
+.marqueeSlide {
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 12px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    font-weight: 80px;
+}
+
+
+/* nav bar links */
+
+.navbar-text img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* nav bar mid portion */
+
+.navText {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Mid Div Design */
+
+.midDiv {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* midDiv Cards */
+
+.delivery,
+.easyPay,
+.shopNow,
+.products {
+    box-shadow: 2px 2px 3px black;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+/* midDiv Heading */
+
+.delivery h3 {
+    margin-left: 10px;
+}
+
+
+/* anchor tag */
+
+.delivery a {
+    text-decoration: none;
+    color: black;
+}
+
+.easyPay a {
+    text-decoration: none;
+    color: black;
+}
+
+.shopNow a {
+    text-decoration: none;
+    color: black;
+}
+
+.products a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* anchor hover effect */
+
+.delivery a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.easyPay a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.shopNow a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.products a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Icons of mid div */
+
+.fa-truck {
+    font-size: 50px !important;
+}
+
+.fa-paypal {
+    font-size: 50px !important;
+}
+
+.fa-shopping-cart {
+    font-size: 50px !important;
+}
+
+
+/* About us Motive Details */
+
+.motoDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-image: linear-gradient(lightyellow, lightyellow);
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+/* Sub Divs of Motive Details */
+
+.aboutUs,
+.moto {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.moto img {
+    width: 200px;
+    height: 200px;
+}
+
+.marqueeDiv {
+    text-align: center;
+}
+
+.aboutUs {
+    box-shadow: 4px 3px 4px 3px black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: 50px;
+    height: 200px;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* footer inner divs */
+
+.subDiv a {
+    text-decoration: none;
+    color: black;
+}
+
+.subDiv a:hover {
+    text-decoration: none;
+}
+
+
+/* CopyRights */
+
+.copyRight {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 30px;
+}
+
+
+/* complain page div form */
+.complaindiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* .complaindiv {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+    background-color: whitesmoke;
+    height: 600px;
+    margin-bottom: 50px !important;
+} */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+ .complainButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+ .complainButton:hover {
+    background-color: #45a049;
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+/* Response Div */
+
+.res {
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 500px;
+    margin: 10px auto;
+    height: 230px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+
+/* services page */
+
+.subServices {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 20px 20px 0px black;
+    
+}
+
+.subdiv {
+    box-shadow: 2px 3px 3px 2px black;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 50px;
+}
+
+
+
+.hd,.paraD{
+    width: 470px;
+    text-align: center;
+    margin-top: 60px !important;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+  
+}
+
+.hd{
+    box-shadow: 3px 3px 3px 3px black;
+    background-color: burlywood;
+}
+
+
+/* contactUs */
+
+.contactBack img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.map {
+    
+    padding-top: 10px;
+    background-color: red;
+}
+
+.contacthead {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 25px !important;
+    box-shadow: 2px  2px 2px 2px black ;
+    width: 160px;
+    margin: 0 auto;
+  background-color: burlywood;
+}
+
+.contact{
+    width: 490px;
+    margin: 80px auto;
+    background-color: whitesmoke;
+   
+    box-shadow: 5px 5px 5px 5px black;
+    
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contacttext {
+width: 50%;
+    padding-left: 50px;
+    align-items: center;
+ 
+}
+
+
+
+
+
+/* product */
+
+
+
+.productmid{
+
+    background-color: #fff;
+    margin-bottom: 40px;
+    width: 60%;
+   margin: 0 auto;
+   
+    position: relative;
+    bottom: 30px;
+    z-index: 1;
+   box-shadow: 5px 5px 5px 5px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.productA,.productB,.productC,.productD,.productE{
+   width: 150px;
+   height: 100px;
+}
+
+
+
+
+.productA,.productB,.productC,.productD,.productE img{
+text-align: center;
+padding-top: 10px;
+ }
+
+ .productMidT{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-bottom: 50px;
+     width: 100%;
+    
+     
+ }
+
+.bigCardO,.bigCardT{
+    width: 450px;
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   box-shadow: 3px 3px 3px 3px black;
+}
+
+.buttonP {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+  }
+
+  .buttonP:hover {
+    background-color: #45a049;
+    text-decoration: none;
+    color:#fff;
+  }
+
+
+  .productHeading{
+      background-color: gold;
+      color: #fff;
+      box-shadow: 2px 2px 2px 2px black;
+      width: 200px;
+      height: auto;
+      text-align: center;
+      margin: 0 auto;
+     position: relative;
+     top: 30px;
+  }
+
+
+  .productContainer{
+      width: 80%;
+      margin: 50px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+margin-top: 0 !important;
+box-shadow: 10px 20px 20px 5px black;
+padding:10px 0px;
+
+  }
+
+
+  .fruit1{
+      margin-top: 40px;
+    width: 280px;
+    height: 510px;
+    text-align: center;
+    padding-top: 5px;
+border: 1px solid black;
+  }
+  .fruit2{margin-top: 40px;
+    width: 280px;
+    height: 510px;
+border: 1px solid black;
+text-align: center;
+padding-top: 5px;
+  }
+  .fruit3{margin-top: 40px;
+    width: 280px;
+    height: 510px;
+border: 1px solid black;
+text-align: center;
+padding-top: 5px;
+  }
+  .fruit4{margin-top: 40px;
+    width: 280px;
+    height: 510px;
+border: 1px solid black;
+text-align: center;
+padding-top: 5px;
+  }
+ .fruit5{ width: 280px;
+    margin-top: 40px;
+    height: 510px;
+border: 1px solid black;
+text-align: center;
+padding-top: 5px;
+}
+  .fruit6{margin-top: 40px;
+    width: 280px;
+    height: 510px;
+    text-align: center;
+border: 1px solid black;
+padding-top: 5px;
+  }
+  .fruit7{margin-top: 40px;
+    width: 280px;
+    height: 510px;
+border: 1px solid black;
+text-align: center;
+padding-top: 5px;
+
+  }
+  .fruit8{margin-top: 40px;
+    width: 280px;
+    height: 510px;
+border: 1px solid black;
+text-align: center;
+padding-top: 5px;
+  }
+  .fruit9{margin-top: 40px;
+      width: 280px;
+      height: 510px;
+border: 1px solid black;
+padding-top: 5px;
+text-align: center;
+  }
+
+
+  .buttonPd {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+   
+  }
+
+  .buttonPd:hover {
+    background-color: #45a049;
+    text-decoration: none;
+    color:#fff;
+  }
+
+
+
+
+
